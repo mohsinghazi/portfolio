@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "start react app",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "runtimeArgs": ["start"],
+            "runtimeExecutable": "npm",
+            "type": "node"           
+        }
+    ]
+}

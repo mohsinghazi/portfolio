@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  input {
+    @apply nm-inset-primary-sm w-full px-4 py-3 rounded-lg font-semibold outline-none text-black text-base lg:text-xl;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 nm-flat-primary w-fit text-BlueJeans font-semibold hover:text-white hover:bg-BlueJeans rounded-lg;
+  }
+  ,
+  .active {
+    @apply border-b-2 border-BlueJeans;
+  }
+}
+::-webkit-scrollbar {
+  width: 12px;
+  -webkit-appearance: none;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-Gray rounded-full;
+}
